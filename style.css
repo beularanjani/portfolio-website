@@ -425,3 +425,21 @@ footer{
     }
 
 }
+#topBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:50%;
+    cursor:pointer;
+    font-size:18px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+#topBtn:hover{
+    background:#1d4ed8;
+}

@@ -221,26 +221,110 @@ section{
 ========================= */
 
 .projects-container{
+
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
     gap:30px;
+
 }
 
-.project-card:hover{
-    transform:translateY(-12px);
+.project-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
     transition:.4s;
-    box-shadow:0 20px 40px rgba(37,99,235,.2);
+
 }
 
 .project-card:hover{
+
     transform:translateY(-10px);
+
+}
+
+.project-icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
 }
 
 .project-card h3{
+
     color:#2563eb;
+
     margin-bottom:15px;
+
 }
 
+.project-card p{
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+.tech-stack{
+
+    margin-bottom:25px;
+
+}
+
+.tech-stack span{
+
+    display:inline-block;
+
+    background:#dbeafe;
+
+    color:#2563eb;
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    margin:5px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.project-btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    transition:.3s;
+
+}
+
+.project-btn:hover{
+
+    background:#1d4ed8;
+
+}
 /* =========================
    EDUCATION
 ========================= */
